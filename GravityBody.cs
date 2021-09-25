@@ -25,22 +25,5 @@ public class GravityBody : MonoBehaviour
 		planet.Attract(rb);
 
 	}
-	/*
-	public GravityAttractor attractor;
 
-	public Rigidbody rb;
-	private Transform myTransform;
-
-	private void Start()
-	{
-		rb = GetComponent<Rigidbody>();
-		rb.constraints = RigidbodyConstraints.FreezeRotation;
-		rb.useGravity = false;
-	}
-
-	private void Update()
-	{
-		attractor.Attract(this);
-	}
-	*/
 }
